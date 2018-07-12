@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace SireusRR
+namespace WeldAdmin
 {
     public class BundleConfig
     {

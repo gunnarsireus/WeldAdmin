@@ -308,7 +308,6 @@
     <Content Include="Scripts\jquery-ui.js" />
     <Content Include="Scripts\ui\jquery.ui.core.js" />
     <Content Include="Scripts\ui\jquery.ui.effect-swirl.js" />
-    <Content Include="Upload\favicon.ico" />
     <Content Include="webpack.config.js" />
     <Content Include="package.json" />
     <Content Include="App\.babelrc" />
@@ -320,7 +319,6 @@
     <Content Include="App\common\Portal.jsx" />
     <Content Include="App\common\Select.jsx" />
     <Content Include="App\common\Swirl.jsx" />
-    <Content Include="App\home\home.jsx" />
     <Content Include="App\common\Test.jsx" />
     <Content Include="App\common\Input.jsx" />
     <Content Include="App\common\Radio.jsx" />
@@ -342,22 +340,14 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Upload\NMathConfiguration.log" />
-    <Content Include="Upload\Web.config">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\FontAwesome.otf" />
-    <None Include="Properties\PublishProfiles\sireus - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\sireus - Web Deploy.pubxml">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Properties\PublishProfiles\Sireus22.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

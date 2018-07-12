@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace SireusRR.Controllers
+namespace WeldAdmin.Controllers
 {
     public class HomeController : Controller
     {

@@ -100,7 +100,7 @@ export default class Frame extends Component {
                         <span className="icon-bar"></span>
                     </button>
                     <a className="navbar-brand" href="/">
-					    <span className={this.titleClasses}>Home Page - SireusRR</span>
+					    <span className={this.titleClasses}>Weld You Own App - Admin</span>
                     </a>
                 </div>
                 <div className="collapse navbar-collapse" id="navbar-collapse">
