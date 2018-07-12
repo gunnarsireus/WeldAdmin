@@ -14,10 +14,6 @@ namespace SireusRR
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-               name: "Handler", // Route name
-                url: "{Controller}/{action}/{arg1}/{arg2}");
-
-            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }

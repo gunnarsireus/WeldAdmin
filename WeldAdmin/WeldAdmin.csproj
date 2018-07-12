@@ -69,10 +69,6 @@
       <HintPath>..\packages\JSPool.3.0.1\lib\net451\JSPool.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="LTBCore, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Libs\LTBCore.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.AspNet.Http.Abstractions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Libs\Microsoft.AspNet.Http.Abstractions.dll</HintPath>
@@ -89,30 +85,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="NMath, Version=5.2.0.0, Culture=neutral, PublicKeyToken=873235918a322639, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Libs\NMath.dll</HintPath>
-    </Reference>
-    <Reference Include="NMathKernelx86, Version=5.2.0.0, Culture=neutral, PublicKeyToken=873235918a322639, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Libs\NMathKernelx86.dll</HintPath>
-    </Reference>
-    <Reference Include="NMathStats, Version=3.5.0.0, Culture=neutral, PublicKeyToken=873235918a322639, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Libs\NMathStats.dll</HintPath>
-    </Reference>
-    <Reference Include="React.Core, Version=3.1.0.0, Culture=neutral, PublicKeyToken=9aed67b161f7db78, processorArchitecture=MSIL">
-      <HintPath>..\packages\React.Core.3.1.0\lib\net40\React.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="React.Web, Version=3.1.0.0, Culture=neutral, PublicKeyToken=9aed67b161f7db78, processorArchitecture=MSIL">
-      <HintPath>..\packages\React.Web.3.1.0\lib\net40\React.Web.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="React.Web.Mvc4, Version=3.1.0.0, Culture=neutral, PublicKeyToken=9aed67b161f7db78, processorArchitecture=MSIL">
-      <HintPath>..\packages\React.Web.Mvc4.3.1.0\lib\net40\React.Web.Mvc4.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -188,24 +160,11 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
-    <Compile Include="App_Start\ReactConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\AlbumsController.cs" />
-    <Compile Include="Controllers\DetailsController.cs" />
-    <Compile Include="Models\Album.cs" />
-    <Compile Include="Controllers\HandlerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\LTBController.cs" />
-    <Compile Include="Controllers\PhotosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\DateTimeUtil.cs" />
-    <Compile Include="Models\Extensions.cs" />
-    <Compile Include="Models\LtbResult.cs" />
-    <Compile Include="Models\Photo.cs" />
-    <Compile Include="Models\PhotoManager.cs" />
-    <Compile Include="Models\PhotoSize.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -345,16 +304,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Libs\Google.Maps.dll" />
-    <Content Include="Libs\LTBCore.dll" />
-    <Content Include="Libs\Microsoft.AspNet.Http.Abstractions.dll" />
-    <Content Include="Libs\Microsoft.AspNet.Http.Abstractions.xml" />
-    <Content Include="Libs\Microsoft.Framework.DependencyInjection.Abstractions.dll" />
-    <Content Include="Libs\NMath.dll" />
-    <Content Include="Libs\NMath.xml" />
-    <Content Include="Libs\NMathKernelx86.dll" />
-    <Content Include="Libs\NMathStats.dll" />
-    <Content Include="Libs\nmath_native_x86.dll" />
     <Content Include="readme.txt" />
     <Content Include="Scripts\jquery-ui.js" />
     <Content Include="Scripts\ui\jquery.ui.core.js" />
@@ -392,7 +341,6 @@
     <Content Include="Views\Web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Views\Handler\Download.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Upload\NMathConfiguration.log" />
     <Content Include="Upload\Web.config">

@@ -2,7 +2,6 @@
 import PropTypes from 'prop-types';
 
 export default class Select extends Component {
-    displayName: 'Select';
     constructor(props) {
         super(props);
         var selected = this.getSelectedFromProps(this.props);

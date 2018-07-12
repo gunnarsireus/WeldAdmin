@@ -105,12 +105,9 @@ export default class Frame extends Component {
                 </div>
                 <div className="collapse navbar-collapse" id="navbar-collapse">
                     <ul id="spriteTabs" role="nav">
-                        <NavLink to="/"  onlyActiveOnIndex><span/>&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;</NavLink>
+                        <NavLink to="/"  onlyActiveOnIndex><span/>&nbsp;&nbsp;&nbsp;Admin&nbsp;&nbsp;&nbsp;</NavLink>
                         <NavLink to="/sql"                ><span/>&nbsp;&nbsp;&nbsp;SQL&nbsp;&nbsp;&nbsp;</NavLink>
                         <NavLink to="/admin"              ><span/>&nbsp;&nbsp;&nbsp;Admin&nbsp;&nbsp;&nbsp;</NavLink>
-                        <NavLink to="/albums"             ><span/>&nbsp;&nbsp;&nbsp;Album&nbsp;&nbsp;&nbsp;</NavLink>
-                        <NavLink to="/dialog"             ><span/>&nbsp;&nbsp;&nbsp;Dialog&nbsp;&nbsp;&nbsp;</NavLink>
-                        <NavLink to="/flux"               ><span/>&nbsp;&nbsp;&nbsp;Flux&nbsp;&nbsp;&nbsp;</NavLink>
                     </ul>
                 </div>
             </div>
