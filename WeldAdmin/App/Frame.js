@@ -107,7 +107,6 @@ export default class Frame extends Component {
                     <ul id="spriteTabs" role="nav">
                         <NavLink to="/"  onlyActiveOnIndex><span/>&nbsp;&nbsp;&nbsp;Admin&nbsp;&nbsp;&nbsp;</NavLink>
                         <NavLink to="/sql"                ><span/>&nbsp;&nbsp;&nbsp;SQL&nbsp;&nbsp;&nbsp;</NavLink>
-                        <NavLink to="/admin"              ><span/>&nbsp;&nbsp;&nbsp;Admin&nbsp;&nbsp;&nbsp;</NavLink>
                     </ul>
                 </div>
             </div>
@@ -118,7 +117,7 @@ export default class Frame extends Component {
         <div className={this.footerClasses} style={{ minHeight: '81px', background: this.getCss("Footer", dayNumber) }}>
             <br />
             <footer>
-                <p>Copyright &copy; 2017 - Siréus Consulting AB</p>
+                <p>Copyright &copy; 2018 - Siréus Consulting AB</p>
             </footer>
         </div>
       </div>

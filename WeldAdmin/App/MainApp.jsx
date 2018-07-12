@@ -15,7 +15,6 @@ export default class MainApp extends Component {
             <Route path="/" component={Frame}>
                 <IndexRoute component={WeldAdmin} />
                 <Route path="sql" component={Sql}/>
-                <Route path="admin" component={WeldAdmin} />
                 <Route path='*' component={NotFound} />
             </Route>
         </Router>

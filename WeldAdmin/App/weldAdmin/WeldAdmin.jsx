@@ -19,12 +19,10 @@ export default class WeldAdmin extends Component {
     };
 
     componentDidMount() {
-        console.log('componentDidMount')
         this.getAjax();
     }
 
     componentWillReceiveProps(newProps) {
-        console.log('componentWillReceiveProps')
         if (this.state.nameText !== newProps.nameText) {
             this.setState({ nameText: newProps.nameText });
             console.log('newProps.nameText ' + newProps.nameText);
