@@ -25,13 +25,10 @@ module.exports = {
           'process.env': {
               NODE_ENV: JSON.stringify('production')
           }
-      }),
-       new webpack.optimize.UglifyJsPlugin({
-           compress: { warnings: false }
-       })
+      })
     ],
     module: {
-        loaders: [
+        rules: [
             { test: /\.css$/, loader: "style-loader!css-loader" },
             { test: /\.jpe?g$|\.gif$|\.png$|\.svg$|\.woff$|\.woff2$|\.ttf$|\.eot$/, loader: "url-loader" },
             { test: /\.html$/, loader: "html-loader" },
