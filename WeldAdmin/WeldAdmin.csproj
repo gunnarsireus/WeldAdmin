@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6DC9E44B-E359-44B0-BF12-4DEF0253DFD7}</ProjectGuid>
+    <ProjectGuid>{1CDE49FC-A544-4554-8D8E-84B7790347B0}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -25,7 +25,6 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,40 +44,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ClearScript, Version=5.4.9.0, Culture=neutral, PublicKeyToken=935d0c957da47c73, processorArchitecture=MSIL">
-      <HintPath>..\packages\JavaScriptEngineSwitcher.V8.2.4.2\lib\net45\ClearScript.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="JavaScriptEngineSwitcher.ChakraCore, Version=2.4.8.0, Culture=neutral, PublicKeyToken=c608b2a8cc9e4472, processorArchitecture=MSIL">
-      <HintPath>..\packages\JavaScriptEngineSwitcher.ChakraCore.2.4.8\lib\net45\JavaScriptEngineSwitcher.ChakraCore.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="JavaScriptEngineSwitcher.Core, Version=2.4.9.0, Culture=neutral, PublicKeyToken=c608b2a8cc9e4472, processorArchitecture=MSIL">
-      <HintPath>..\packages\JavaScriptEngineSwitcher.Core.2.4.9\lib\net45\JavaScriptEngineSwitcher.Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="JavaScriptEngineSwitcher.Msie, Version=2.4.9.0, Culture=neutral, PublicKeyToken=c608b2a8cc9e4472, processorArchitecture=MSIL">
-      <HintPath>..\packages\JavaScriptEngineSwitcher.Msie.2.4.9\lib\net45\JavaScriptEngineSwitcher.Msie.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="JavaScriptEngineSwitcher.V8, Version=2.4.2.0, Culture=neutral, PublicKeyToken=c608b2a8cc9e4472, processorArchitecture=MSIL">
-      <HintPath>..\packages\JavaScriptEngineSwitcher.V8.2.4.2\lib\net45\JavaScriptEngineSwitcher.V8.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="JSPool, Version=3.0.1.0, Culture=neutral, PublicKeyToken=2fc7775f73072640, processorArchitecture=MSIL">
-      <HintPath>..\packages\JSPool.3.0.1\lib\net451\JSPool.dll</HintPath>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Microsoft.VisualBasic" />
-    <Reference Include="MsieJavaScriptEngine, Version=2.2.2.0, Culture=neutral, PublicKeyToken=a3a2846a37ac0d3e, processorArchitecture=MSIL">
-      <HintPath>..\packages\MsieJavaScriptEngine.2.2.2\lib\net45\MsieJavaScriptEngine.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -88,10 +58,6 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Web.Optimization.React, Version=3.1.0.0, Culture=neutral, PublicKeyToken=9aed67b161f7db78, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Web.Optimization.React.3.1.0\lib\net40\System.Web.Optimization.React.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
@@ -136,17 +102,63 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
-    <Reference Include="VroomJs, Version=1.2.3.0, Culture=neutral, PublicKeyToken=e7c52e67fcb0044f, processorArchitecture=MSIL">
-      <HintPath>..\packages\VroomJs.1.2.3\lib\net45\VroomJs.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
-      <HintPath>..\packages\WebActivatorEx.2.2.0\lib\net40\WebActivatorEx.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -160,10 +172,25 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\common\AlbumFrame.jsx" />
+    <Content Include="App\common\Alert.jsx" />
+    <Content Include="App\common\App.jsx" />
+    <Content Include="App\common\Datepicker.jsx" />
+    <Content Include="App\common\Dialog.jsx" />
+    <Content Include="App\common\DialogAlert.jsx" />
+    <Content Include="App\common\Input.jsx" />
+    <Content Include="App\common\PhotoFrame.jsx" />
+    <Content Include="App\common\Portal.jsx" />
+    <Content Include="App\common\Radio.jsx" />
+    <Content Include="App\common\Radios.jsx" />
+    <Content Include="App\common\Select.jsx" />
+    <Content Include="App\common\Swirl.jsx" />
+    <Content Include="App\common\Test.jsx" />
     <Content Include="App\Frame.js" />
     <Content Include="App\main.js" />
     <Content Include="App\MainApp.jsx" />
     <Content Include="App\NavLink.jsx" />
+    <Content Include="App\sql\sql.jsx" />
     <Content Include="App\weldAdmin\WeldAdmin.jsx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -279,60 +306,40 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="App\.babelrc" />
+    <Content Include="Content\images\Final_Order_Problem.pdf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
     <Content Include="readme.txt" />
+    <Content Include="Scripts\HelloWorld.jsx" />
     <Content Include="Scripts\jquery-ui.js" />
     <Content Include="Scripts\ui\jquery.ui.core.js" />
     <Content Include="Scripts\ui\jquery.ui.effect-swirl.js" />
-    <Content Include="webpack.config.js" />
-    <Content Include="package.json" />
-    <Content Include="App\.babelrc" />
-    <Content Include="App\common\Alert.jsx" />
-    <Content Include="App\common\App.jsx" />
-    <Content Include="App\common\Datepicker.jsx" />
-    <Content Include="App\common\Dialog.jsx" />
-    <Content Include="App\common\DialogAlert.jsx" />
-    <Content Include="App\common\Portal.jsx" />
-    <Content Include="App\common\Select.jsx" />
-    <Content Include="App\common\Swirl.jsx" />
-    <Content Include="App\common\Test.jsx" />
-    <Content Include="App\common\Input.jsx" />
-    <Content Include="App\common\Radio.jsx" />
-    <Content Include="App\common\Radios.jsx" />
-    <Content Include="App\common\AlbumFrame.jsx" />
-    <Content Include="App\common\PhotoFrame.jsx" />
-    <None Include="App\sql\sql.jsx" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Views\Web.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="fonts\fontawesome-webfont.ttf" />
-    <Content Include="fonts\fontawesome-webfont.woff" />
-    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="webpack.config.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Build\" />
-    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="packages.config">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Content\images\Final_Order_Problem.pdf" />
+    <Content Include="packages.config" />
+    <Content Include="package.json" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <PropertyGroup>
@@ -351,9 +358,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>51911</DevelopmentServerPort>
+          <DevelopmentServerPort>59270</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:51911/</IISUrl>
+          <IISUrl>http://localhost:59270/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
@@ -372,6 +379,7 @@
   </Target>
   <PropertyGroup>
     <PreBuildEvent>cd $(ProjectDir)
+
 webpack</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
