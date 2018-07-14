@@ -3,6 +3,7 @@ var path = require('path');
 var WebpackNotifierPlugin = require('webpack-notifier');
 
 module.exports = {
+    mode: 'development',
     resolve: {
         alias: {
             'react': path.join(__dirname, 'node_modules', 'react')
