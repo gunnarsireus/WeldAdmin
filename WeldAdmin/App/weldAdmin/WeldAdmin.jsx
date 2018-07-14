@@ -63,7 +63,6 @@ class NameForm extends React.Component {
     }
 
     putAjax() {
-        if (this.state.inputName === 'Donald Duck') return;
         let that = this;
         $.ajax({
             url: 'https://simple-rest-weld.herokuapp.com/user/',

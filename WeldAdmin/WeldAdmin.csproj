@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -178,6 +179,7 @@
     <Content Include="App\common\Datepicker.jsx" />
     <Content Include="App\common\Dialog.jsx" />
     <Content Include="App\common\DialogAlert.jsx" />
+    <Content Include="App\common\NameForm.jsx" />
     <Content Include="App\common\Input.jsx" />
     <Content Include="App\common\PhotoFrame.jsx" />
     <Content Include="App\common\Portal.jsx" />
